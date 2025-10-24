@@ -10,9 +10,6 @@
 
 
 <style>
-    .trial h2 {
-        color: aliceblue;
-    }
 </style>
 
 <body>
@@ -68,6 +65,7 @@
                 skilled Machine Learning Engineer. I love exploring new concepts, learning continuously, and building
                 things that make an impact.
             </p>
+            <p class="knowmore" onclick="goto()">Know more About Me.</p>
 
         </section>
 
@@ -149,6 +147,10 @@ document.querySelectorAll('.nav-menu a').forEach(link => {
         hamburger.classList.remove('active');
     });
 });
+
+function goto(){
+    window.location.href="about.html";
+}
 </script>
 
 </html>
