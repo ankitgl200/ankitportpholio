@@ -154,6 +154,26 @@ header {
     text-align: center;
 }
 
+.knowmore{
+    width: 220px;
+    margin: 20px auto;
+    padding: 10px 15px;
+    border-radius: 50px;
+    text-align: center;
+    color: black;
+    background-color: #0ff30f;
+    font-weight: bold;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+
+.knowmore:hover{
+    scale: 1.1;
+    background-color: transparent;
+    color: white;
+    border: 2px solid #0ff30f;
+}
+
 .top-heading {
     display: flex;
     text-align: center;
