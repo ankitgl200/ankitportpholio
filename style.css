@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    user-select: none;
     box-sizing: border-box;
     scroll-behavior: smooth;
     font-family: "Poppins", sans-serif;
@@ -797,3 +798,4 @@ footer {
         height: 100vh;
     }
 }
+
